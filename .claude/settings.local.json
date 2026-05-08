@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem C:\\\\reviewer\\\\Project\\\\DataMonitor-YoonChangheum-22094435\\\\agents *)"
+    ]
+  }
+}
