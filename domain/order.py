@@ -10,6 +10,14 @@ class OrderStatus(Enum):
     RELEASE = "RELEASE"
 
 
+MONITORED_STATUSES = [
+    OrderStatus.RESERVED,
+    OrderStatus.PRODUCING,
+    OrderStatus.CONFIRMED,
+    OrderStatus.RELEASE,
+]
+
+
 @dataclass
 class Order:
     order_id: str

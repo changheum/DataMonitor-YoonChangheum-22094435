@@ -76,14 +76,14 @@ class TestOrderMonitorService:
 # ---------------------------------------------------------------------------
 
 class TestInventoryStatus:
-    def test_inventory_status_has_sufficient(self):
-        assert InventoryStatus.SUFFICIENT is not None
+    def test_sufficient_label_is_여유(self):
+        assert InventoryStatus.SUFFICIENT.value == "여유"
 
-    def test_inventory_status_has_insufficient(self):
-        assert InventoryStatus.INSUFFICIENT is not None
+    def test_insufficient_label_is_부족(self):
+        assert InventoryStatus.INSUFFICIENT.value == "부족"
 
-    def test_inventory_status_has_depleted(self):
-        assert InventoryStatus.DEPLETED is not None
+    def test_depleted_label_is_고갈(self):
+        assert InventoryStatus.DEPLETED.value == "고갈"
 
 
 class TestInventoryMonitorService:

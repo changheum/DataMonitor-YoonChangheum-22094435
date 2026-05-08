@@ -105,7 +105,7 @@ class TestMonitorDisplay:
 
     def test_output_shows_empty_inventory_message_when_no_samples(self):
         output = self._render(self._make_counts(), [])
-        assert "없음" in output or "등록된 시료" in output or "재고 현황" in output
+        assert "등록된 시료 없음" in output
 
     # ------------------------------------------------------------------
     # MonitorDisplay 인터페이스
