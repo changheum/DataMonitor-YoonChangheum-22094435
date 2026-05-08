@@ -1,0 +1,1 @@
+[{"sample_id": "S001", "name": "시료A", "avg_production_time": 2.0, "yield_rate": 0.9}, {"sample_id": "S002", "name": "시료B", "avg_production_time": 3.5, "yield_rate": 0.8}, {"sample_id": "S003", "name": "시료C", "avg_production_time": 1.5, "yield_rate": 1.0}]
