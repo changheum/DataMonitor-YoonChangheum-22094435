@@ -168,8 +168,8 @@ ex) 주문 정보, 현재까지의 생산량 등
 - [ ] `InventoryItem`: sample_id, stock_quantity
 - [ ] 테스트 커버리지 100%
 
-**상태:** 대기중  
-**Git Push:** Phase 1 완료 후 사용자 승인 시
+**상태:** ✅ 완료  
+**Git Push:** ✅ 완료
 
 ---
 
@@ -270,7 +270,7 @@ ex) 주문 정보, 현재까지의 생산량 등
 
 | Phase | 내용 | 상태 |
 |-------|------|------|
-| Phase 1 | 환경 설정 및 도메인 모델 | 대기중 |
+| Phase 1 | 환경 설정 및 도메인 모델 | ✅ 완료 |
 | Phase 2 | 데이터 레이어 (Repository) | 대기중 |
 | Phase 3 | 모니터링 서비스 (Business Logic) | 대기중 |
 | Phase 4 | 콘솔 UI (Display Layer) | 대기중 |
